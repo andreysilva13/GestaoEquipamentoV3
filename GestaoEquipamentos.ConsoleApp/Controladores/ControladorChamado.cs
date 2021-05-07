@@ -28,7 +28,7 @@ namespace GestaoEquipamentos.ConsoleApp.Controladores
             }
             else
             {
-                posicao = ObterPosicaoOcupada(new Equipamento(id));
+                posicao = ObterPosicaoOcupada(new Chamado(id));
                 chamado = (Chamado)registros[posicao];
 
             }
